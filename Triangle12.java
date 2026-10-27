@@ -6,7 +6,6 @@ public class Triangle12 {
 
         System.out.print("Masukkan nilai n = ");
         int n = sc.nextInt();
-
         int i = 1;
         while (i <= n) {
             int j = 0;
@@ -16,6 +15,18 @@ public class Triangle12 {
             }
             System.out.println();
             i++;
+        }
+
+        // soal modifikasi
+        i = n;
+        while (i >= 1) {
+            int j = 0;
+            while (j < i) {
+                System.out.print("*");
+                j++;
+            }
+            System.out.println();
+            i--;
         }
     }
 }
